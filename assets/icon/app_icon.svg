@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#5E35B1"/>
+  
+  <!-- Outer circle background -->
+  <circle cx="256" cy="256" r="240" fill="#FFFFFF" opacity="0.95"/>
+  
+  <!-- Face outline -->
+  <ellipse cx="256" cy="260" rx="120" ry="140" fill="none" stroke="#1A1A1A" stroke-width="3"/>
+  
+  <!-- Head (simplified face) -->
+  <path d="M 220 180 Q 200 200 200 260 Q 200 340 256 360 Q 312 340 312 260 Q 312 200 292 180 Q 270 160 256 160 Q 242 160 220 180" 
+        fill="#F5E6D3" stroke="#1A1A1A" stroke-width="2"/>
+  
+  <!-- Left eye -->
+  <ellipse cx="235" cy="230" rx="12" ry="18" fill="#1A1A1A"/>
+  <circle cx="237" cy="228" r="4" fill="#FFFFFF"/>
+  
+  <!-- Right eye -->
+  <ellipse cx="277" cy="230" rx="12" ry="18" fill="#1A1A1A"/>
+  <circle cx="279" cy="228" r="4" fill="#FFFFFF"/>
+  
+  <!-- Nose -->
+  <line x1="256" y1="240" x2="256" y2="280" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/>
+  <line x1="252" y1="275" x2="260" y2="275" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Mouth -->
+  <path d="M 240 310 Q 256 325 272 310" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Grid overlay (light gray) -->
+  <!-- Vertical lines -->
+  <line x1="156" y1="120" x2="156" y2="400" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  <line x1="200" y1="120" x2="200" y2="400" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  <line x1="256" y1="120" x2="256" y2="400" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  <line x1="312" y1="120" x2="312" y2="400" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  <line x1="356" y1="120" x2="356" y2="400" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="136" y1="160" x2="376" y2="160" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  <line x1="136" y1="210" x2="376" y2="210" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  <line x1="136" y1="260" x2="376" y2="260" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  <line x1="136" y1="310" x2="376" y2="310" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  <line x1="136" y1="360" x2="376" y2="360" stroke="#CCCCCC" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Golden Ratio lines (Φ = 1.618) -->
+  <!-- Vertical golden line -->
+  <line x1="208" y1="120" x2="208" y2="400" stroke="#FFD700" stroke-width="2.5" opacity="0.8"/>
+  
+  <!-- Another vertical golden line -->
+  <line x1="304" y1="120" x2="304" y2="400" stroke="#FFD700" stroke-width="2.5" opacity="0.8"/>
+  
+  <!-- Horizontal golden line -->
+  <line x1="136" y1="196" x2="376" y2="196" stroke="#FFD700" stroke-width="2.5" opacity="0.8"/>
+  
+  <!-- Golden ratio rectangle -->
+  <rect x="156" y="140" width="200" height="130" fill="none" stroke="#FFD700" stroke-width="2.5" opacity="0.7" stroke-dasharray="5,5"/>
+  
+  <!-- Golden spiral indicators (circular arcs) -->
+  <circle cx="208" cy="196" r="3" fill="#FFD700" opacity="0.9"/>
+  <circle cx="304" cy="196" r="3" fill="#FFD700" opacity="0.9"/>
+  
+  <!-- Decorative corner accents -->
+  <circle cx="140" cy="140" r="4" fill="#5E35B1" opacity="0.7"/>
+  <circle cx="372" cy="140" r="4" fill="#5E35B1" opacity="0.7"/>
+  <circle cx="140" cy="380" r="4" fill="#5E35B1" opacity="0.7"/>
+  <circle cx="372" cy="380" r="4" fill="#5E35B1" opacity="0.7"/>
+  
+  <!-- Pencil/Brush stroke accent (left side) -->
+  <path d="M 100 250 Q 110 240 120 250" fill="none" stroke="#FFD700" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  
+  <!-- Palette accent (bottom) -->
+  <circle cx="256" cy="420" r="8" fill="#FFD700" opacity="0.7"/>
+  <circle cx="240" cy="428" r="5" fill="#5E35B1" opacity="0.6"/>
+  <circle cx="272" cy="428" r="5" fill="#1A1A1A" opacity="0.6"/>
+</svg>
