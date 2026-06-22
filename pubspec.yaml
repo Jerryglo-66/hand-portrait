@@ -31,6 +31,9 @@ dependencies:
   # Permissions
   permission_handler: ^11.0.0
 
+  # UUID generation
+  uuid: ^4.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
