@@ -1,0 +1,51 @@
+name: hand_portrait
+description: Mobile app for portrait sketching with grid and golden ratio overlay.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.0.0
+
+  # Image handling
+  image_picker: ^1.0.0
+  image: ^4.0.0
+
+  # Drawing and canvas
+  flutter_drawing_board: ^0.8.0
+
+  # File handling
+  path_provider: ^2.1.0
+
+  # UI components
+  cupertino_icons: ^1.0.2
+
+  # Permissions
+  permission_handler: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
